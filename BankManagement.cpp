@@ -40,14 +40,16 @@ public:
         cout<<"Deposit Succesful. New Balance Is: "<<balance<<" PKR"<<endl;
         }
         else cout<<"Invalid Deposit Input!"<<endl;
-    }
+     }
+
+
     void withdraw(double withdrawAmount){
         if(withdrawAmount>0 && withdrawAmount<=balance){
             balance-=withdrawAmount;
         cout<<"Withdraw Succesful. New Balance Is: "<<balance<<" PKR"<<endl;
         }
         else cout<<"Invalid Withdraw Input!"<<endl;
-    }
+     }
         
 };
 
